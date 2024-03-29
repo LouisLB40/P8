@@ -4,6 +4,7 @@ import { Card } from "../Cards/cards";
 
 export function Gallery () {
   const [logements] = useState(Data);
+  console.log(logements)
 
   return (
     <>
@@ -13,8 +14,8 @@ export function Gallery () {
             <Card 
               id={item.id}
               key={item.id}
-              cover={item.id}
-              title={item.id}
+              cover={item.cover}
+              title={item.title}
             />
           ))}
         </div>

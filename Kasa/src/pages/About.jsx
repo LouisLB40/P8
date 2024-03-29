@@ -1,16 +1,11 @@
-import aboutBanner from "../assets/images/About_Banner.png"
-import { Collapse } from "../components/Collapse/collapse"
+import aboutBanner from "../assets/images/About_Banner.png";
+import { Collapse } from "../components/Collapse/collapse";
+import { Banner } from "../components/Banner/Banner";
 
 export function About() {
   return (
     <section>
-      <div className="img-container">
-        <img 
-          className="img-banner"
-          src={aboutBanner}
-          alt="Une vallée"
-        />
-      </div>
+      <Banner title="" src={aboutBanner} alt="une vallée" />
       <Collapse
       />
     </section>

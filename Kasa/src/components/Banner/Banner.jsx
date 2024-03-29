@@ -1,14 +1,12 @@
-import homepageBanner from "../../assets/images/Home_Banner.png"
-
-export function Banner() {
+export function Banner({title, src, alt}) {
   return (
     <div className="img-container">
       <img
         className="img-banner"
-        src={homepageBanner}
-        alt="une falaise"
+        src={src}
+        alt={alt}
       />
-      <div className="slogan">Chez vous, partout et ailleurs</div>
+      <h2 className="slogan">{title}</h2>
     </div>
   )
 }
