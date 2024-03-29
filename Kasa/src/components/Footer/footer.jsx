@@ -1,4 +1,4 @@
-import  logo_kasa_footer  from "../../assets/LOGO (1).png";
+import  logo_kasa_footer  from "../../assets/images/LOGO (1).png";
 
 export function Footer() {
   return ( 

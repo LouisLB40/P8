@@ -1,0 +1,103 @@
+@keyframes down-arrow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+@keyframes dawn-arrow-reverse {
+  100% {
+    transform: rotate(-180deg);
+  }
+  0% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes show-content {
+  0% {
+    max-height: 0;
+    opacity: 0;
+    padding: 0 0 0 18px;
+  }
+  100% {
+    opacity: 1;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    padding: 27px 27px 19px 18px;
+  }
+}
+@keyframes no-content {
+  0% {
+    opacity: 1;
+    color: #ff6060;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    padding: 27px 27px 19px 18px;
+  }
+  100% {
+    opacity: 0;
+    max-height: 0;
+    color: transparent;
+    padding: 0 0 0 18px;
+  }
+}
+.down-btn-item {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+}
+.down-btn-item .btn-down {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  color: white;
+  border: none;
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 10px 20px 10px 15px;
+  border-radius: 5px;
+  background-color: #ff6060;
+}
+.down-btn-item .arrow {
+  cursor: pointer;
+}
+.down-btn-item .arrow-active {
+  transform: rotate(-180deg);
+  transition: 0.3s all ease-in-out;
+}
+.down-btn-item .arrow-deactive {
+  transform: rotate(0deg);
+  transition: 0.3s all ease-in-out;
+}
+
+.down-content {
+  border-radius: 5px;
+  background: #f6f6f6;
+  color: #ff6060;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0 0 0 18px;
+  max-height: 0;
+}
+
+.content-fade-in {
+  opacity: 1;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  padding: 27px 27px 19px 18px;
+  transition: opacity 0.3s ease, max-height 0.3s ease, padding 0.3s ease;
+}
+
+.content-fade-out {
+  opacity: 0;
+  max-height: 0;
+  padding: 0 0 0 18px;
+  transition: opacity 0.3s ease, max-height 0.3s ease, padding 0.3s ease;
+}/*# sourceMappingURL=collapse.css.map */
