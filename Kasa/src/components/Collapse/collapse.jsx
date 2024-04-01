@@ -10,7 +10,7 @@ export function Collapse(props) {
     <div className={props.containerclass}>
       <div className="down-btn-item">
         <button className="btn-down">
-          {props.down_title}
+          {props.downTitle}
           <img onClick={toggleDown} className={`arrow ${ toggle ? 'arrow-active' : 'arrow-desactive' }`} src={arrow} alt="flèche vers le bas" />
         </button>
         <div className={`down-content ${ toggle ? 'content-fade-in' : 'content-fade-out' }`}>

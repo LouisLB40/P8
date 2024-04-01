@@ -4,7 +4,7 @@ import { Card } from "../Cards/cards";
 
 export function Gallery () {
   const [logements] = useState(Data);
-  console.log(logements)
+  // console.log(logements)
 
   return (
     <>
