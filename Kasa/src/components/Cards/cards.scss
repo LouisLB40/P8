@@ -2,7 +2,7 @@
   position: relative;
   width: 340px;
   height: 340px;
-  
+
   & :before {
     content: "";
     position: absolute;
@@ -35,5 +35,4 @@
     transform: scale(1.01);
     transition: 0.3s ease-in-out;
   }
-
 }
