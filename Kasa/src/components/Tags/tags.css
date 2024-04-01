@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.logements-container_tags {
+  display: flex;
+  gap: 10px;
+}
+.logements-container_tags li {
+  color: #ffffff;
+  background-color: #ff6060;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 10px;
+  list-style: none;
+}/*# sourceMappingURL=tags.css.map */
