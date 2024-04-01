@@ -1,0 +1,13 @@
+@import "../../assets/style/variables.scss";
+
+.ratings-container {
+  & .star {
+    width: 36px;
+    margin-right: 15px;
+    height: 36px;
+
+    & .star:last-child {
+      margin-left: 0;
+    }
+  }
+}
