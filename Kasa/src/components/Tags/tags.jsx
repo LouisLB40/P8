@@ -1,4 +1,4 @@
-export function Tags({ tags }) {
+export function Tags ({ tags }) {
   return (
     tags &&
     Array.isArray(tags) && (

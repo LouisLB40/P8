@@ -12,7 +12,7 @@ export function About() {
       {aboutData.map((down, id) => (
         <Collapse
           key={id}
-          downTilte={down.aboutTitle}
+          downTitle={down.aboutTitle}
           downContent={down.aboutContent}
           containerclass={'down-btn-about'}
         />

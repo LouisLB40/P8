@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 footer {
   display: flex;
   justify-content: center;
@@ -73,6 +78,7 @@ header {
   font-style: normal;
   font-weight: 700;
   top: 36%;
+  margin: 0;
 }
 
 .gallery-container {
@@ -230,4 +236,120 @@ header {
   max-height: 0;
   padding: 0 0 0 18px;
   transition: opacity 0.3s ease, max-height 0.3s ease, padding 0.3s ease;
+}
+
+.logements-container_tags {
+  display: flex;
+  gap: 10px;
+}
+.logements-container_tags li {
+  color: #ffffff;
+  background-color: #ff6060;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 10px;
+  list-style: none;
+}
+
+.ratings-container .star {
+  width: 36px;
+  margin-right: 15px;
+  height: 36px;
+}
+.ratings-container .star .star:last-child {
+  margin-left: 0;
+}
+
+.logements-container_infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px auto;
+}
+.logements-container_infos .logements-container-infos_leftPart .logements-container-infos_title {
+  font-size: 36px;
+  font-weight: 500;
+}
+.logements-container_infos .logements-container-infos_leftPart .logements-container_location {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.logements-container_infos .logements-container-infos_rightPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logements-container_infos .logements-container-infos_rightPart .host-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.logements-container_infos .logements-container-infos_rightPart .host-infos .profil {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.logements-container_infos .logements-container-infos_rightPart .host-infos .logements-container_name {
+  text-align: right;
+  margin-right: 10px;
+  max-width: 80px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.logements-collapse {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+.logements-collapse .logements-collapse_item {
+  width: 50%;
+}
+.logements-collapse .collpase-container_title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  color: #ff6060;
+  font-family: Montserrat;
+  font-style: normal;
+  gap: 139px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.error-page_title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: #ff6060;
+  font-size: 288px;
+  font-weight: 700;
+  width: 597px;
+  height: 263px;
+}
+.error-page_description {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 36px;
+  font-weight: 500;
+}
+.error-page .return {
+  display: flex;
+  justify-content: center;
+  color: #ff6060;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 139px;
 }/*# sourceMappingURL=main.css.map */

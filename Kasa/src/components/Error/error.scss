@@ -1,0 +1,41 @@
+@import "../../assets/style/variables.scss";
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  color: $primary-color;
+  font-family: Montserrat;
+  font-style: normal;
+  gap: 139px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  &_title {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: $primary-color;
+    font-size: 288px;
+    font-weight: 700;
+    width: 597px;
+    height: 263px;
+  }
+
+  &_description {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .return {
+    display: flex;
+    justify-content: center;
+    color: $primary-color;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 139px;
+  }
+}
