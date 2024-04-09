@@ -1,4 +1,4 @@
-export function Tags ({ tags }) {
+function Tags ({ tags }) {
   return (
     tags &&
     Array.isArray(tags) && (
@@ -10,3 +10,4 @@ export function Tags ({ tags }) {
     )
   );
 }
+export default Tags;
