@@ -2,7 +2,6 @@ import { Collapse } from "../Collapse/collapse";
 import { Ratings } from "../Ratings/ratings";
 import Tags from "../Tags/tags";
 
-
 export function infoLogements ({ title, location, tags, host, dataCurrentLogements }) {
   return (
     <>

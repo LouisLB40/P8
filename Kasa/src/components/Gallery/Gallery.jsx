@@ -11,7 +11,7 @@ export function Gallery () {
       <div className="gallery-container">
         <div className="gallery">
           {logements.map((item) => (
-            <Card 
+            <Card
               id={item.id}
               key={item.id}
               cover={item.cover}
