@@ -1,8 +1,9 @@
 import { Collapse } from "../Collapse/collapse";
 import { Ratings } from "../Ratings/ratings";
 import Tags from "../Tags/tags";
+import Data from "../../data/data.json";
 
-export function infoLogements ({ title, location, tags, host, dataCurrentLogements }) {
+export function InfoLogements ({ title, location, tags, host, dataCurrentLogements }) {
   return (
     <>
       <main className="logements-container_infos">
