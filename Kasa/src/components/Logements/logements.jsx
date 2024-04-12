@@ -4,6 +4,8 @@ import Tags from "../Tags/tags";
 import Data from "../../data/data.json";
 
 export function InfoLogements ({ title, location, tags, host, dataCurrentLogements }) {
+
+  console.log(dataCurrentLogements)
   return (
     <>
       <main className="logements-container_infos">

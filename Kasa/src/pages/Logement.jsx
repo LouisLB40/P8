@@ -12,27 +12,31 @@ export function Logement() {
   const id = useParams("id").id;
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const currentLogement = data.find((item) => item.id === id);
-    if (currentLogement) {
-      const logementPhotos = currentLogement.photos || [];
+  const annonce = Data.find((annonce) => annonce.id === id)
+  console.log(annonce)
 
-      setDataAccommodationPictures(accommodationPictures);
-      setDataCurrentAccommodation(currentAccommodation);
-    } else {
-      navigate("*");
-    }
-  }, [id, navigate]);
+  const titre = annonce.title
+  const location = annonce.location
+  const userName = annonce.host.name
+  const rating = annonce.rating
+  const tags = annonce.tags
+  const pictures = annonce.pictures
+  const equipements = annonce.equipments
+  const description = annonce.description
+
+
 
   return (
     <main className="logement-container">
-      <Carrousel photos={dataLogementPhotos} />
+      <Carrousel photos={pictures} />
       <InfoLogements
-        title={dataCurrentLogement.title || ""}
-        location={dataCurrentLogement.location || ""}
-        tags={dataCurrentLogement.tags || []}
-        host={dataCurrentLogement.host || {}}
-        dataCurrentLogement={dataCurrentLogement}
+        title={titre || ""}
+        location={location || ""}
+        tags={tags || []}
+        host={userName || {}}
+        rating={rating}
+        equipements={equipements}
+        description={description}
       />
     </main>
   );
